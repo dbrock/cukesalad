@@ -26,7 +26,7 @@ module CukeSalad
     it "creates a module by a similar name" do
       in_order_to "some different task" do;end
 
-      SomeActor.new SomeDifferentTask
+      SomeActor.new.see_how_to_do SomeDifferentTask
     end
 
     it "enables the actor to do something" do
