@@ -2,6 +2,7 @@
 *.swp
 *.swo
 .DS_Store
+tmp
 
 #rdoc generated
 rdoc
